@@ -14,8 +14,16 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(UrlGenerator $url)
     {
-        if(env('APP_ENV') !== 'local')
-        {
+        // if(env('APP_ENV') !== 'local')
+        // {
+        //     $url->forceSchema('https');
+        // }
+
+        $appEnv = env('APP_ENV');
+        $host = request()->getHost();
+
+        // Force HTTPS on production environment
+        if ($appEnv === 'production' || str_contains($host, 'ngrok-free.app')) {
             $url->forceSchema('https');
         }
     }
