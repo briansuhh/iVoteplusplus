@@ -125,7 +125,8 @@ class votingController extends Controller
                         $counter = 0;
                         foreach($memdetail as $memdet){
                             if($posdet->strPosDeFieldName == $memdet->strMemDeFieldName){
-                                if($posdet->strPosDeFieldData == $memdet->strMemDeFieldData) $counter++;
+                                if($posdet->strPosDeFieldData == $memdet->strMemDeFieldData) 
+                                	$counter++;
                             }
                         }
                         if($counter != 0) $count++;

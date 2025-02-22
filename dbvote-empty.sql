@@ -557,7 +557,8 @@ INSERT INTO `users` (`id`, `name`, `email`, `password`, `remember_token`, `blAdm
 (22, 'Mon Paulo Velasco', 'monpaulovelasco@gmail.com', '$2y$10$QNXpjIOEiHXcdLyHmlRic.63npe9alJiXrt8hvlq.up09v84YZqG2', 'KQtDL1DLMXV7lfOIGja6J3Qbw38txGxKAgLbM7uSx2HTAVTeN9CXc3GLb9fH', 0, '20170225062927-383421.jpg', 0, '2017-02-25 18:29:27', '2017-02-26 13:32:38'),
 (32, 'Jobelle Ordiz', 'ordiz663@gmail.com', '$2y$10$H5A3yi611xf/8wYShso.GON01LD.nj3UCK9vv0qum5Tq1arj85are', 'dt2UkyZOUUdAKj4YCjoH2OZuFd0p0yPIEd81Fmu5j8XpAZSLdG8RDIn3kMJj', 0, '20170305094117-612619.png', 0, '2017-02-25 18:30:04', '2017-03-05 21:41:18'),
 (42, 'Paul Cruz', 'paulandrei@ymail.com', '$2y$10$/N5dgg6V5u2AuVgks2LSYu.IacPKNkfJjLV9MQnnf1zK7WXl4JC3.', NULL, 0, '20170314123807-631374.jpg', 0, '2017-03-13 09:56:58', '2017-03-14 04:38:07'),
-(43, 'Arvin Luis Gresola', 'arvin@yahoo.com', '$2y$10$BTumwvUUQIN.ulzyZl23Juy/G.qp3tZPsXzZImOTsO04k8/P.PCOG', NULL, 0, '20170314025230-745686.jpg', 0, '2017-03-14 06:52:30', '2017-03-14 06:52:30');
+(43, 'Arvin Luis Gresola', 'arvin@yahoo.com', '$2y$10$BTumwvUUQIN.ulzyZl23Juy/G.qp3tZPsXzZImOTsO04k8/P.PCOG', NULL, 0, '20170314025230-745686.jpg', 0, '2017-03-14 06:52:30', '2017-03-14 06:52:30'),
+(44, 'edgar', 'raizusdavid@gmail.com', '$2y$10$Gyc2ihybPWnzVwITT.XjAOQmiRbV4Plwxv/R61JeBDTAyi/99WHQq', 'uXYY4fAVngfQo13wvYPFSxT6ukq4DlBGlNtwprZksnkFTlPRaNX2cis0wi0b', 0, '20180313054629-655409.png', 0, '2018-03-13 09:46:29', '2018-11-08 07:06:19');
 
 --
 -- Indexes for dumped tables
