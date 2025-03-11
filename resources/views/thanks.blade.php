@@ -101,7 +101,7 @@
 <script type="text/javascript">
   window.setTimeout(function(){
     window.location.href = "/survey/answersurvey";
-  },3000);
+  },1000);
 </script>
 <script>
   //iCheck for checkbox and radio inputs
